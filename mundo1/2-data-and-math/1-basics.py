@@ -17,4 +17,13 @@ print('==== How printing in an advanced way / from python 3. Before it was with 
 print('A soma é {}'.format(sum))
 print('A soma entre {} e {} é {}'.format(n1,n2,sum))
 
-# print(n1.isnumeric()) doesn't work
+a = input ('Digite algo ')
+print('O tipo primitivo desse valor é ', type(a))
+print('Tem só espaços?',a.isspace())
+print('É um número?',a.isnumeric())
+print('É Alfabético?',a.isalpha())
+print('É Alfanumerico?',a.isalnum())
+print('É maiusculas?',a.isupper())
+print('É só minusculas?',a.islower())
+print('É só maiusculas?',a.isupper())
+print('Esta Captalizada?',a.istitle())
