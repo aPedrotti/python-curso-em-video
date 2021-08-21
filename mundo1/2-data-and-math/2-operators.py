@@ -67,3 +67,13 @@ print('Ler altura e largura da parede e calcular a quantidade de tinta para pint
 n1 = int(input('Digite a altura '))
 n2 = int(input('Digite a largura '))
 print('')
+
+desconto=float(5/100)
+print('Ler um preço e calcule um desconto de',desconto)
+n1 = int(input('Digite o preço: '))
+print('')
+
+aumento=float(5/100)
+print('Ler um salario e calcule um aumento de',aumento)
+n1 = int(input('Digite o salario: '))
+print('')
