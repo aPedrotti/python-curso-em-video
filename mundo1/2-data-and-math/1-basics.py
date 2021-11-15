@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 
 # Description of Types of Vars
 # int   = 7 -4 0 9875
