@@ -3,11 +3,11 @@
 print("""Create a program that reads a full name and then shows:
 - Name with all caps
 - Name with all lower
-- How much chars (do not consider spaces)
+- How much chars (do not considering spaces)
 - How much chars has the first name
 """)
 
-name = str(input('Type your Full Name: '))
+name = str(input('Type your Full Name: ')).strip()
 
 print(name.upper())
 print(name.lower())
