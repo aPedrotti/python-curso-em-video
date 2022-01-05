@@ -18,6 +18,7 @@ if s1 < s2+s3 and s2 < s1+s3 and s3 < s1+s2:
     elif s1 == s2 or s1 == s3:
         print("It is an \033[7mISOSELES\033[m Triangle")
     elif s1 != s2 and s1 != s3:
+        # can also be: if s1 != s2 != s3 != s1:
         print("It is an \033[7mESCALENO\033[m Triangle")
 else:
     print('These sizes CANNOT make a triangle')
