@@ -9,9 +9,9 @@ salary = float(input("Enter your Salary: $"))
 years = int(input("Enter how much years are you going to take to pay off: "))
 
 salary_capacity = salary*0.3
-morgage = house / (years * 12)
+mortgage = house / (years * 12)
 
-if morgage > salary_capacity:
-    print(" Loan \033[30;41mDenied\033[m. Your salary payment capacity is {:.2f} and morage would be {:.2f} ".format(salary_capacity,morgage))
+if mortgage > salary_capacity:
+    print(" Loan \033[30;41mDenied\033[m. Your salary payment capacity is {:.2f} and mortgage would be {:.2f} ".format(salary_capacity,mortgage))
 else:
-    print(" Loan \033[30;42mAutorized\033[m. Your salary payment capacity is {:.2f} and morage would be {:.2f} ".format(salary_capacity,morgage))
+    print(" Loan \033[30;42mAutorized\033[m. Your salary payment capacity is {:.2f} and mortgage would be {:.2f} ".format(salary_capacity,mortgage))
