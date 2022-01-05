@@ -28,12 +28,12 @@ print("End")
 
 b = int(input("Enter Start: "))
 e = int(input("Enter End: "))
-s = int(input("Enter Jump: "))
+j = int(input("Enter Jump: "))
 for i in range(b,e+1,s):
     print(i)
 print("Finish")
 
-for i in range(b,e+1,s):
+for i in range(b,e+1,j):
     n = int(input("Enter value: "))
     s += n
 print("Finish")
