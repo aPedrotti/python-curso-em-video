@@ -5,8 +5,8 @@ frase='Curso em Video Python'
 print(frase)
 
 # Spliting
-# Curso em V i d e o   P y t h o n
-# 01234567891011121314151617181920
+# frase = "Curso em V i d e o   P y t h o n"
+#          01234567891011121314151617181920
 print(frase[9]) #V
 print('from-to (except last character)')
 print(frase[9:13]) #Vide
