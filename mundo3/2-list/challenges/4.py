@@ -6,17 +6,17 @@ How many numbers were typed, ordered list reverse, if number 5 were typed or not
 number=num_five=0
 numbers=[]
 while True:
-  number = int(input("Insert a number: "))
-  numbers.append(number)
-  if number == 5:
-    num_five+=1
-  cont = str(input("Do you want to continue? [Y/N] ")).strip().upper()[0]
-  if cont == "N":
-    break
+    number = int(input("Insert a number: "))
+    numbers.append(number)
+    if number == 5:
+        
+    cont = str(input("Do you want to continue? [Y/N] ")).strip().upper()[0]
+    if cont == "N":
+        break
 print("-="*10)
 print(f"You typed {len(numbers)} numbers")
 print(f"The reverse order is: {sorted(numbers,reverse=True)}")
 if num_five == 0:
-  print("Number 5 was not added")
+    print("Number 5 was not added")
 else:
-  print(f"Number 5 was typed {num_five} times")
+    print(f"Number 5 was typed {num_five} times")

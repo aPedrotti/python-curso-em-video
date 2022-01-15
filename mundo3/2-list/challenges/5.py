@@ -9,12 +9,12 @@ numbers=[]
 odds=[]
 evens=[]
 while True:
-  number = int(input("Insert a number: "))
-  numbers.append(number)
-  odds.append(number) if number % 2 == 0 else evens.append(number)
-  cont = str(input("Do you want to continue? [Y/N] ")).strip().upper()[0]
-  if cont == "N":
-    break
+    number = int(input("Insert a number: "))
+    numbers.append(number)
+    odds.append(number) if number % 2 == 0 else evens.append(number)
+    cont = str(input("Do you want to continue? [Y/N] ")).strip().upper()[0]
+    if cont == "N":
+        break
 
 
 print(f"All Numbers are: {sorted(numbers)}")
