@@ -8,9 +8,8 @@ numbers=[]
 while True:
     number = int(input("Insert a number: "))
     numbers.append(number)
-    if number == 5:
-        
-    cont = str(input("Do you want to continue? [Y/N] ")).strip().upper()[0]
+    if number == 5:    
+        cont = str(input("Do you want to continue? [Y/N] ")).strip().upper()[0]
     if cont == "N":
         break
 print("-="*10)
