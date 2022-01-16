@@ -9,16 +9,12 @@ Example:
 main = [[],[],[]]
 number = 0
 
-for i in range(0,3):
-    main[0].append(int(input(f"Enter number for the [[0,{i}]th position: ")))
-for i in range(0,3):
-    main[1].append(int(input(f"Enter number for the [[1,{i}]th position: ")))
-for i in range(0,3):
-    main[2].append(int(input(f"Enter number for the [[2,{i}]th position: ")))
+for l in range(0,3):
+    for c in range(0,3):
+        main[l].append(int(input(f"Enter number for the [[{l},{c}] position: ")))
+        #main[l][c] = int(input(f"Enter number for the [[{l},{c}] position: "))
 
-for i in main[0]:
-    print(f"[ {i} ] ",end=" ")
-for i in main[1]:
-    print(f"[ {i} ] ",end=" ")
-for i in main[2]:
-    print(f"[ {i} ] ",end=" ")
+for l in range(0,3):
+    for c in range(0,3):
+        print(f"[{main[l][c]:^5}] ",end=" ")
+    print()
