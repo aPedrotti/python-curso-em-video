@@ -84,7 +84,8 @@ for p in crew:
         print(f"{p[0]} is major age")
         totm+=1
     else:
-        print(f"{p[0]}")
+        print(f"{p[0]} is minor")
         totminor+=1
 
 print(f"You have {totm} major age and {totminor} minors")
+print(len(crew))
