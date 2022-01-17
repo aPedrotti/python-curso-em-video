@@ -19,6 +19,7 @@ while True:
     student.append(str(input("Name: ")))
     student.append(float(input("1st Grade: ")))
     student.append(float(input("2st Grade: ")))
+    students.append(student[:])
     cont = str(input("Would like to continue? [Y/N] ")).strip().upper()[0]
     if cont == "N":
         break
