@@ -1,7 +1,4 @@
 #!/usr/bin/python
-from statistics import mean
-
-
 print ("""089
 Read N names and 2 scores in a multi-list 
 Show avg of of each and ask if wants to show scores of someone 
@@ -40,3 +37,4 @@ while True:
         break
     else:
         print(f"Grades from '{students[number][0]}' are: {students[number][1]} and {students[number][2]}")
+print("<<< Finished >>>")
