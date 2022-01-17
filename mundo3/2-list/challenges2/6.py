@@ -12,3 +12,30 @@ Id. NAME    AVG
 Wants to see from which student? (999 to quit): 
 
 """)
+student=[]
+students=[]
+number=0
+while True:
+    student.append(str(input("Name: ")))
+    student.append(float(input("1st Grade: ")))
+    student.append(float(input("2st Grade: ")))
+    cont = str(input("Would like to continue? [Y/N] ")).strip().upper()[0]
+    if cont == "N":
+        break
+
+print("-"*20)
+print("{:2} {} {}".format("No"))
+for p in range(0,len(students)): 
+    if p % 2 == 0:
+        print(f"{students[p]:.<30}",end=" ")
+    else:
+        print(f"$ {students[p]:>7.2f}")
+print("-"*20)
+
+while True:
+    number = int(input("Wants to see from which student? (999 to quit): "))
+    if cont == 999:
+        break
+    else:
+        #print(f"Grades from {students[student[number][0]]} are: ",students[student[number][1]],students[student[number][2]])
+        print("Else")
